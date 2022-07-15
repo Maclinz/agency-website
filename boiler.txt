@@ -1,0 +1,18 @@
+import React from 'react'
+import styled from 'styled-components'
+import { useTheme } from '../context/themeContext';
+
+function ServicesSection() {
+    const theme = useTheme()
+    return (
+        <ServicesSectionStyled theme={theme}>
+
+        </ServicesSectionStyled>
+    )
+}
+
+const ServicesSectionStyled = styled.section`
+
+`;
+
+export default ServicesSection
